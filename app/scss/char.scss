@@ -1,0 +1,34 @@
+.char{
+    width: 100%;
+    padding: 140px 0;
+    &__body{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        &-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            img{
+                width: 72px;
+                height: 72px;
+            }
+            span{
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 26.4px;
+                text-align: center;
+                font-family: 'Gilroy-Bold', sans-serif;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                text-align: center;
+                font-family: 'Gilroy-Medium', sans-serif;
+                max-width: 260px;
+            }
+        }
+    }
+}

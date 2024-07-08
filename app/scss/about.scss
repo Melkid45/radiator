@@ -1,0 +1,90 @@
+.about{
+    width: 100%;
+    margin-top: 120px;
+    &__body{
+        display: flex;
+        justify-content: space-between;
+        &-start{
+            display: flex;
+            flex-direction: column;
+            gap: 56px;
+            &-title{
+                font-size: 46px;
+                font-weight: 600;
+                line-height: 50.6px;
+                text-align: left;
+                font-family: 'Gilroy-Bold', sans-serif;
+            }
+            img{
+                width: 260px;
+                height: 195px;
+                border-radius: 16px;
+            }
+            .about__item{
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+                p{
+                    max-width: 200px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    text-align: left;
+                    font-family: 'Gilroy-Medium', sans-serif;
+                }
+                span{
+                    font-size: 46px;
+                    font-weight: 600;
+                    line-height: 50.6px;
+                    text-align: left;
+                    font-family: 'Gilroy-Bold', sans-serif;
+                    color: #959595;
+                }
+            }
+        }
+        &-end{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            &-desc{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    text-align: left;
+                    font-family: 'Gilroy-Medium', sans-serif;
+                    max-width: 560px;
+                }
+            }
+            &-box{
+                display: flex;
+                align-items: center;
+                gap: 80px;
+                .about__item{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 17px;
+                    p{
+                        max-width: 200px;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 21px;
+                        text-align: left;
+                        font-family: 'Gilroy-Medium', sans-serif;
+                    }
+                    span{
+                        font-size: 46px;
+                        font-weight: 600;
+                        line-height: 50.6px;
+                        text-align: left;
+                        font-family: 'Gilroy-Bold', sans-serif;
+                        color: #959595;
+                    }
+                }
+            }
+        }
+    }
+}

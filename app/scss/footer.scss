@@ -1,0 +1,114 @@
+.footer{
+    padding: 0px 10px 10px 10px;
+    margin-top: 120px;
+    background: #313131;
+    border-radius: 16px;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: 107px;
+        padding: 61px 0px 40px 0px;
+        &-top{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            &-menu{
+                display: flex;
+                gap: 188px;
+                align-items: flex-start;
+                &-logo{
+                    display: flex;
+                    align-items: center;
+                    gap: 9px;
+                    span{
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 14px;
+                        text-align: left;
+                        color: #fff;
+                        font-family: 'Gilroy-Bold', sans-serif;
+                    }
+                    img{
+                        width: 38px;
+                        height: 55px;
+                    }
+                }
+                &-links{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    li{
+                        a{
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 18.56px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+                &-write{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    a:nth-child(1){
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 19.09px;
+                        text-align: left;
+                        color: #fff;
+                        font-family: 'Gilroy-Bold', sans-serif;
+                    }
+                    a:nth-child(2){
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 18.56px;
+                        text-align: left;
+                        color: #fff;
+                    }
+                }
+            }
+            .footer__btn{
+                font-family: 'Gilroy-Bold', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 19.09px;
+                text-align: left;
+                padding: 16px 20px;
+                border-radius: 16px;
+                background: #fff;
+                height: max-content;
+            }
+        }
+        &-bot{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 18.56px;
+                text-align: left;
+                color: #fff;
+            }
+            &-soc{
+                display: flex;
+                align-items: center;
+                gap: 17px;
+                a:nth-child(1){
+                    img{
+                        width: 35.72px;
+                        height: 31.6px;
+                    }
+                }
+                a:nth-child(2){
+                    img{
+                        width: 34.35px;
+                        height: 34.35px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

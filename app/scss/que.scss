@@ -1,0 +1,79 @@
+.que{
+    width: 100%;
+    margin-top: 120px;
+    &__body{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        &-start{
+            display: flex;
+            flex-direction: column;
+            gap: 71px;
+            h2{
+                font-size: 46px;
+                font-weight: 600;
+                line-height: 50.6px;
+                text-align: left;
+                font-family: 'Gilroy-Bold', sans-serif;
+            }
+            img{
+                width: 332px;
+                height: 206px;
+            }
+        }
+        &-box{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            &-item{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                overflow: hidden;
+                width: 560px;
+                cursor: pointer;
+                transition: all 1s ease;
+                &-top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    img{
+                        width: 44px;
+                        height: 44px;
+                        transition: all 0.3s ease;
+                    }
+                    span{
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        text-align: left;
+                        font-family: 'Gilroy-Bold', sans-serif;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    text-align: left;
+                    font-family: 'Gilroy-Medium', sans-serif;
+                    max-height: 0;
+                    transition: all 0.3s ease;
+                    height: auto;
+                }
+            }
+            &-item.open{
+                .que__body-box-item-top{
+                    img{
+                        rotate: 180deg;
+                    }
+                }
+            }
+            .line{
+                width: 100%;
+                height: 1px;
+                background: #31313133;
+            }
+        }
+    }
+}
