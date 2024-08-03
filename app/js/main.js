@@ -54,12 +54,10 @@ SmoothScroll({
 })
 
 $('.open__form').on('click', function(e){
-  window.location.href = '#popup:marquiz_64005f1ff874680048f07004'
   $('.marquiz__bg').addClass('marquiz__bg_open')
   $('body').addClass('hidden')
 })
 $('#marquiz__close').on('click',function(e){
-  window.location.href = '/'
   $('.marquiz__bg').removeClass('marquiz__bg_open')
   $('body').removeClass('hidden')
 })
