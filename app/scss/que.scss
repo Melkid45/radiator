@@ -32,7 +32,8 @@
                 overflow: hidden;
                 width: 560px;
                 cursor: pointer;
-                transition: all 1s ease;
+                transition: all 0.3s ease;
+                height: auto;
                 &-top{
                     display: flex;
                     align-items: center;
@@ -59,7 +60,6 @@
                     font-family: 'Gilroy-Medium', sans-serif;
                     max-height: 0;
                     transition: all 0.3s ease;
-                    height: auto;
                 }
             }
             &-item.open{

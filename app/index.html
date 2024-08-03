@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <link rel="stylesheet" href="../scss/style.min.css">
     <title>Radiator</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -40,7 +42,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     <a href="tel:+79999999999" class="header__body-end-tel">
                         +7 (999) 999-99-99
                     </a>
-                    <button class="header__body-end-btn">
+                    <button class="header__body-end-btn open__form">
                         Обратный звонок
                     </button>
                 </div>
@@ -55,7 +57,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     <p>В наличии и под заказ напрямую от производителя от 7 500 ₽ с доставкой по Москве и РФ</p>
                 </div>
                 <div class="main__body-start-do">
-                    <button class="main__body-start-do-btn">
+                    <button class="main__body-start-do-btn open__form">
                         Узнать подробнее
                     </button>
                     <img src="../images/dist/main__img.png" alt="">
@@ -288,7 +290,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                             <a href="mailto:info@radiator.ru">info@radiator.ru</a>
                         </div>
                     </nav>
-                    <button class="footer__btn">
+                    <button class="footer__btn open__form">
                         Обратный звонок
                     </button>
                 </div>
@@ -308,12 +310,20 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </div>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <div class="marquiz__bg">
+        <div class="marquiz__modal"><button id="marquiz__close">&nbsp;</button><iframe
+                id="marquiz__frame_64005f1ff874680048f07004" class="marquiz__frame marquiz__frame_open"
+                src="//quiz.marquiz.ru/64005f1ff874680048f07004?_ga=964945747.1721848840&amp;cookies=%7B%22_ym_uid%22%3A%22172184884010406161%22%2C%22_ga%22%3A%22GA1.1.964945747.1721848840%22%2C%22roistat_visit%22%3A%222194553%22%2C%22roistat_first_visit%22%3A%222194553%22%2C%22roistat_visit_cookie_expire%22%3A%221209600%22%7D&amp;href=https%3A%2F%2Fwarmmet.ru%2Fvertikalnye-radiatory1%2F%3Froistat%3Ddirect12_search_14862592768_%25D0%25B4%25D0%25B8%25D0%25B7%25D0%25B0%25D0%25B9%25D0%25BD%25D0%25B5%25D1%2580%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B5%2520%25D1%2580%25D0%25B0%25D0%25B4%25D0%25B8%25D0%25B0%25D1%2582%25D0%25BE%25D1%2580%25D1%258B%2520%25D0%25BE%25D1%2582%25D0%25BE%25D0%25BF%25D0%25BB%25D0%25B5%25D0%25BD%25D0%25B8%25D1%258F%2520%25D0%25B2%25D0%25B5%25D1%2580%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D1%258B%25D0%25B5%26roistat_referrer%3Dnone%26roistat_pos%3Dpremium_1%26utm_source%3DYandexDirect%26utm_medium%3Dcpc_rf%26utm_campaign%3D94096367%26utm_content%3D14862592768%26utm_term%3D%25D0%25B4%25D0%25B8%25D0%25B7%25D0%25B0%25D0%25B9%25D0%25BD%25D0%25B5%25D1%2580%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B5%2520%25D1%2580%25D0%25B0%25D0%25B4%25D0%25B8%25D0%25B0%25D1%2582%25D0%25BE%25D1%2580%25D1%258B%2520%25D0%25BE%25D1%2582%25D0%25BE%25D0%25BF%25D0%25BB%25D0%25B5%25D0%25BD%25D0%25B8%25D1%258F%2520%25D0%25B2%25D0%25B5%25D1%2580%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D1%258B%25D0%25B5%26yclid%3D3514949113900171263&amp;mode=modal&amp;region=eu&amp;roistat=direct12_search_14862592768_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5%20%D1%80%D0%B0%D0%B4%D0%B8%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%BE%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5&amp;roistat_pos=premium_1&amp;roistat_referrer=none&amp;utm_campaign=94096367&amp;utm_content=14862592768&amp;utm_medium=cpc_rf&amp;utm_source=YandexDirect&amp;utm_term=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5%20%D1%80%D0%B0%D0%B4%D0%B8%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%BE%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5&amp;yclid=3514949113900171263"
+                scrolling="auto" frameborder="0" allow="autoplay"></iframe>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
     <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 "></script>
     <script src="../js/main.min.js"></script>
 </body>
+
 </html>
-
-
